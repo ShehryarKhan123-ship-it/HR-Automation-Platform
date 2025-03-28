@@ -40,6 +40,16 @@
 | **Frontend** | HTML/CSS, Bootstrap |  
 
 ---
+## 🤖 Automatic Folder Creation
+
+When you clone and run this repository, **all required folders are created automatically**:
+
+### What Gets Created Automatically
+    ```python
+    # These directories are generated on first run:
+    os.makedirs(UPLOADS_DIR, exist_ok=True)  # Creates 'uploads' folder
+    os.makedirs(TEMPLATES_DIR, exist_ok=True) # Creates 'templates' folder
+
 ## ⚙️ Configuration Guide
 
 ### File Path Configuration (in `application.py`)
@@ -55,8 +65,6 @@
     MODEL_PATH = os.path.join(TEMPLATES_DIR, "random_forest_model.pkl")
     VECTORIZER_PATH = os.path.join(TEMPLATES_DIR, "tfidf_vectorizer.pkl")
 
-  # Output file
-  FINAL_CSV_PATH = os.path.join(UPLOADS_DIR, "final_candidates.csv")
 ---
 ## 🚀 Get Started in 5 Minutes
 --- 
