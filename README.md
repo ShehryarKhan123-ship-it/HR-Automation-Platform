@@ -29,6 +29,7 @@
 
 ---
 
+
 ## 🛠️ Tech Stack  
 | Component | Technology |  
 |-----------|------------|  
@@ -39,7 +40,24 @@
 | **Frontend** | HTML/CSS, Bootstrap |  
 
 ---
+## ⚙️ Configuration Guide
 
+### File Path Configuration (in `application.py`)
+    ```python
+    # Base directory (change this to your preferred location)
+    DESKTOP_DIR = r"C:\Users\ART\Desktop"  
+
+    # Subdirectories (automatically created)
+    TEMPLATES_DIR = os.path.join(DESKTOP_DIR, "templates")  # For HTML templates
+    UPLOADS_DIR = os.path.join(TEMPLATES_DIR, "uploads")    # For uploaded resumes
+
+    # Model files (place these in TEMPLATES_DIR)
+    MODEL_PATH = os.path.join(TEMPLATES_DIR, "random_forest_model.pkl")
+    VECTORIZER_PATH = os.path.join(TEMPLATES_DIR, "tfidf_vectorizer.pkl")
+
+  # Output file
+  FINAL_CSV_PATH = os.path.join(UPLOADS_DIR, "final_candidates.csv")
+---
 ## 🚀 Get Started in 5 Minutes
 --- 
 
