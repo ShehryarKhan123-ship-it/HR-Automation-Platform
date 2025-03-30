@@ -6,6 +6,7 @@
 🚀 **Transform your hiring process** with an **intelligent, automated system** that ranks resumes, predicts candidate suitability, and exports shortlists—*all in one click*. Designed for **HR professionals, recruiters, and hiring managers**, this tool cuts screening time by **80%** using AI.  
 
 ---
+![Demo Video](https://github.com/ShehryarKhan123-ship-it/HR-Automation-Platform/blob/main/202503301055_Tn4hcoDt.mp4)
 
 ## ✨ Why This Project?  
 ✅ **End Manual Screening** – Let AI handle the heavy lifting.  
