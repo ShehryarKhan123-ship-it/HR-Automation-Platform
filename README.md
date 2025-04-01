@@ -7,6 +7,8 @@
 
 ---
 ![Demo Video](https://github.com/ShehryarKhan123-ship-it/HR-Automation-Platform/blob/main/202503301055_Tn4hcoDt.mp4)
+## IMPORTANT NOTE
+Please Download the Video For Better Understanding
 
 ## ✨ Why This Project?  
 ✅ **End Manual Screening** – Let AI handle the heavy lifting.  
